@@ -1,2 +1,5 @@
 # fifo2019.github.io
-Хостинг
+
+Мои работы вёрстки веб-страниц по макету:
+
+fifo2019.github.io/layout-page-product-name/  - 
