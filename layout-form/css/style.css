@@ -1,0 +1,382 @@
+body {
+    margin: 0;
+}
+
+div.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+main.content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+form.form-send {
+    width: 700px;
+    margin: 40px 0 0 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+div.radio-section {
+    display: flex;
+    width: 100%;
+    padding: 5%;
+    box-sizing: border-box;
+}
+
+span.radio-title {
+    display: block;
+    width: 10%;
+    text-align: center;
+    margin: 0 25px 0 0;
+    font-family: Arial;
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 600;
+    color: #9FD468;
+    text-transform: uppercase;
+}
+
+div.radio-item {
+    margin: 0 0 15px 0;
+}
+
+div.radio-item:nth-child(2) {
+    margin: 0;
+}
+
+label.radio-txt {
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 600;
+}
+
+input[type="radio"]:checked,
+input[type="radio"]:not(:checked)
+{
+    position: absolute;
+    left: -2000px;
+}
+
+input[type="radio"]:checked + label,
+input[type="radio"]:not(:checked) + label {
+    display: inline-block;
+    position: relative;
+    padding-left: 42px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+input[type="radio"]:checked + label:before,
+input[type="radio"]:not(:checked) + label:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -3px;
+    width: 23px;
+    height: 23px;
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+}
+
+input[type="radio"]:checked + label:before,
+input[type="radio"]:not(:checked) + label:before {
+    border-radius: 100%;
+}
+
+input[type="radio"]:checked + label:after,
+input[type="radio"]:not(:checked) + label:after {
+    content: "";
+    position: absolute;
+}
+
+input[type="radio"]:checked + label:after,
+input[type="radio"]:not(:checked) + label:after {
+    top: 3px;
+    left: 6px;
+    width: 13px;
+    height: 13px;
+    border-radius: 100%;
+    background-color: #9FD468;
+}
+
+input[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+}
+
+input[type="radio"]:checked + label:after {
+    opacity: 1;
+}
+
+div.checkbox-section {
+    display: flex;
+    width: 100%;
+    padding: 5%;
+    box-sizing: border-box;
+    background-color: #f1f1f1;
+}
+
+span.checkbox-title {
+    display: block;
+    width: 11%;
+    text-align: center;
+    font-family: Arial;
+    margin: 0 25px 0 0;
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 600;
+    color: #9FD468;
+    text-transform: uppercase;
+}
+
+div.checkbox-wrp {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.checkbox-item {
+    width: 25%;
+    margin: 0 30px 15px 0;
+}
+
+div.checkbox-item:nth-child(4),
+div.checkbox-item:nth-child(5),
+div.checkbox-item:nth-child(6) {
+    margin: 0 30px 0 0;
+}
+
+
+label.checkbox-txt {
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 600;
+}
+
+input[type="checkbox"]:checked,
+input[type="checkbox"]:not(:checked) {
+    position: absolute;
+    left: -2000px;
+}
+
+input[type="checkbox"]:checked + label,
+input[type="checkbox"]:not(:checked) + label {
+    display: inline-block;
+    position: relative;
+    padding-left: 40px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked + label:before,
+input[type="checkbox"]:not(:checked) + label:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -3px;
+    width: 23px;
+    height: 23px;
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+}
+
+input[type="checkbox"]:checked + label:before,
+input[type="checkbox"]:not(:checked) + label:before {
+    border-radius: 2px;
+}
+
+input[type="checkbox"]:checked + label:after,
+input[type="checkbox"]:not(:checked) + label:after {
+    content: "";
+    position: absolute;
+}
+
+input[type="checkbox"]:checked + label:after,
+input[type="checkbox"]:not(:checked) + label:after {
+    top: 4px;
+    left: 5px;
+    width: 13px;
+    height: 7px;
+    border-radius: 1px;
+    border-left: 2px solid #9FD468;
+    border-bottom: 2px solid #9FD468;
+    transform: rotate(-45deg);
+}
+
+input[type="checkbox"]:not(:checked) + label:after {
+    opacity: 0;
+}
+
+input[type="checkbox"]:checked + label:after {
+    opacity: 1;
+}
+
+div.data-user-section {
+    display: flex;
+    width: 100%;
+    padding: 5%;
+    box-sizing: border-box;
+}
+
+span.data-user-title {
+    display: block;
+    width: 11%;
+    text-align: center;
+    margin: 0 25px 0 0;
+    font-family: Arial;
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 600;
+    color: #9FD468;
+    text-transform: uppercase;
+}
+
+div.data-user-wrp {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.data-user-item {
+    width: 80%;
+    margin: 0 0 24px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.data-user-item:nth-child(3) {
+    margin: 0;
+}
+
+label.data-user-txt {
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 600;
+    margin: 0 15px 0 0;
+}
+
+input.data-user-input {
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 0 0 10px 5px;
+    border-bottom: 1.5px solid black;
+    font-family: Arial;
+    font-size: 12px;
+}
+
+input.data-user-input::placeholder {
+    opacity: 0.5;
+}
+
+div.contact-info-section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 5%;
+    box-sizing: border-box;
+    background-color: #f1f1f1;
+}
+
+div.contact-info-wrp {
+    width: 100%;
+    display: flex;
+    margin: 0 0 24px 0;
+    position: relative;
+}
+
+div.contact-info-wrp:nth-child(2) {
+    margin: 0;
+}
+
+div.phone-icon:after {
+    position: absolute;
+    content: "";
+    width: 16px;
+    height: 16px;
+    top: 0;
+    right: 114px;
+    background-image: url('../img/phone-icon.png');
+    background-repeat: no-repeat;
+}
+
+div.email-icon:after {
+    position: absolute;
+    content: "";
+    width: 16px;
+    height: 16px;
+    top: 0;
+    right: 115px;
+    background-image: url('../img/email-icon.png');
+    background-repeat: no-repeat;
+}
+
+span.contact-info-title {
+    display: block;
+    width: 11%;
+    text-align: center;
+    margin: 0 25px 0 0;
+    font-family: Arial;
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 600;
+    color: #9FD468;
+    text-transform: uppercase;
+}
+
+input.contact-info {
+    width: 67%;
+    outline: none;
+    border: none;
+    padding: 0 0 10px 5px;
+    border-bottom: 1.5px solid black;
+    font-family: Arial;
+    font-size: 12px;
+    background-color: #f1f1f1;
+}
+
+input.contact-info::placeholder {
+    opacity: 0.5;
+}
+
+div.button-send-section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 5%;
+    box-sizing: border-box;
+}
+
+input.button-send {
+    width: 200px;
+    min-height: 50px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #7dbf38;
+    padding: 0;
+    font-family: Arial;
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    text-transform: uppercase;
+    outline: none;
+}
+
+input.button-send:hover {
+    position: relative;
+    top: 1px;
+    transition: all 0.4s;
+    background-color: #9FD468;
+}
+
+input.button-send:active {
+    background-color: #7dbf38;
+}

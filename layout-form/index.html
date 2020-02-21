@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <main class="content">
+            <form action="#" class="form-send">
+                <div class="radio-section">
+                    <span class="radio-title">Тип</span>
+                    <div class="radio-wrp">
+                        <div class="radio-item">
+                            <input type="radio" name="radio-1" id="radio-1" checked>
+                            <label for="radio-1" class="radio-txt">Аксесуары для интерьера</label>
+                        </div>
+                        <div class="radio-item">
+                            <input type="radio" name="radio-2" id="radio-2">
+                            <label for="radio-2" class="radio-txt">Детская игрушка</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="checkbox-section">
+                    <span class="checkbox-title">Цвет</span>
+                    <div class="checkbox-wrp">
+                        <div class="checkbox-item">
+                            <input type="checkbox" name="white" id="checkbox-1">
+                            <label for="checkbox-1" class="checkbox-txt">Белый</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" name="gray" id="checkbox-2">
+                            <label for="checkbox-2" class="checkbox-txt">Серый</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" name="tiffany" id="checkbox-3">
+                            <label for="checkbox-3" class="checkbox-txt">&laquo;Тиффани&raquo;</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" name="black" id="checkbox-4">
+                            <label for="checkbox-4" class="checkbox-txt">Черный</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" name="pink" id="checkbox-5">
+                            <label for="checkbox-5" class="checkbox-txt">Розовый</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" name="orange" id="checkbox-6">
+                            <label for="checkbox-6" class="checkbox-txt">Оранжевый</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="data-user-section">
+                    <span class="data-user-title">ФИО</span>
+                    <div class="data-user-wrp">
+                        <div class="data-user-item">
+                            <label for="surname" class="data-user-txt">Фамилия:</label>
+                            <input id="surname"
+                                   name="surname"
+                                   type="text"
+                                   class="data-user-input"
+                                   placeholder="Укажите фамилию"
+                                   autofocus>
+                        </div>
+                        <div class="data-user-item">
+                            <label for="name" class="data-user-txt">Имя:</label>
+                            <input id="name"
+                                   name="name"
+                                   type="text"
+                                   class="data-user-input"
+                                   placeholder="Укажите имя"
+                                   autofocus>
+                        </div>
+                        <div class="data-user-item">
+                            <label for="middle-name" class="data-user-txt">Отчество:</label>
+                            <input id="middle-name"
+                                   name="middle-name"
+                                   type="text"
+                                   class="data-user-input"
+                                   placeholder="Укажите отчество"
+                                   autofocus>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-info-section">
+                    <div class="contact-info-wrp phone-icon">
+                        <span class="contact-info-title">Тел</span>
+                        <input type="tel"
+                               name="tel"
+                               class="contact-info"
+                               pattern="^\S[0-9]\s[0-9]{3}\s[0-9]{3}\s[0-9]{2}\s[0-9]{2}$"
+                               placeholder="+7 XXX XX XX"
+                               required
+                               autofocus>
+                    </div>
+                    <div class="contact-info-wrp email-icon">
+                        <span class="contact-info-title">e-mail</span>
+                        <input type="email"
+                               name="email"
+                               class="contact-info"
+                               pattern="^[\Sa-zA-Z0-9]+@[a-zA-Z0-9]+\.[a-zA-Z0-9]+$"
+                               placeholder="Мы не будем спамить, честно!"
+                               autocomplete="off"
+                               required
+                               autofocus>
+                    </div>
+                </div>
+                <div class="button-send-section">
+                    <input type="submit" class="button-send" name="send" value="Send">
+                </div>
+            </form>
+        </main>
+    </div>
+</body>
+</html>
