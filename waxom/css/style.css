@@ -975,7 +975,7 @@ section.statistics-wrp {
     min-height: 300px;
     background-image: url('../img/statistic_background_img.png');
     display: flex;
-    padding: 69px;
+    padding: 69px 0;
     box-sizing: border-box;
     justify-content: center;
     flex-wrap: wrap;
