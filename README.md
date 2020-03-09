@@ -4,7 +4,7 @@
 
 https://fifo2019.github.io/strong-organaisation/
 
-
+![Image alt](https://github.com/fifo2019/fifo2019.github.io/blob/master/images/strong-organaisation.jpg)
 
 https://fifo2019.github.io/waxom/
 
