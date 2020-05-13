@@ -4,7 +4,7 @@
 
 https://fifo2019.github.io/CountdownTimer/
 
-![Image alt](https://github.com/fifo2019/fifo2019.github.io/blob/master/images/gameTenGreenSquares.jpg)
+![Image alt](https://github.com/fifo2019/fifo2019.github.io/blob/master/images/countDownTimer.jpg)
 
 https://fifo2019.github.io/gameTenGreenSquares/
 
